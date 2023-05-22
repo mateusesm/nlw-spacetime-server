@@ -16,7 +16,12 @@ node --version
 ```
 O comando deverá retornar a versão do Node instalada. Se não houver, baixe-a
 
-Caso o Node esteja instalado, entre na pasta do projeto e rode o seguinte comando:
+Caso o Node esteja instalado, entre na pasta do projeto e rode o seguinte comando para instalar todas as dependências:
+
+```bash
+npm install
+```
+Em seguida, rode o seguinte comando para rodar o projeto:
 
 ```bash
 npm run dev
